@@ -1,0 +1,37 @@
+.firstPage{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url('../components/Image/black.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.welcome{
+    display: flex;
+    justify-content: center;
+
+}
+
+.welcome_P{
+    font-size: 70px;
+    font-weight: bolder;
+    color: rgb(76 50 50);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+    
+    
+
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.btnStyle{
+    width: 100%;
+    font-size: large;
+}

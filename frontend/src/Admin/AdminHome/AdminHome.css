@@ -1,0 +1,18 @@
+
+.tableStyle{
+    border: black solid 1px;
+}
+
+.tableHeading{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    font-family:  fantasy;
+    color: rgb(100, 31, 29);
+    
+}
+
+.adminBody{
+    background-image: linear-gradient(to right, rgba(230, 241, 245, 0.295),rgba(199, 212, 214, 0.267));
+    height: 130vh;
+}

@@ -1,0 +1,32 @@
+.login{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+
+.loginHead{
+    font-size: larger;
+    font-weight: bolder;
+    color: firebrick;
+}
+
+.loginHeadDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.loginInput{
+    border-radius: 10px;
+    box-shadow: 5px 4px 6px black;
+    height: 40px;
+}
+.loginMainBody{
+   
+    background-color: #f4fdee;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}

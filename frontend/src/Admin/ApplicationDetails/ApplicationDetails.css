@@ -1,0 +1,41 @@
+
+.form_style{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+
+.input_Box{
+    border-radius: 10px;
+    border: rgb(4, 66, 61) solid 1px;
+    box-shadow: 3px 5px 6px black;
+}
+
+.input_Box1{
+    border-radius: 5px;
+    border: rgb(4, 66, 61) solid 1px;
+    box-shadow: 3px 5px 6px black;
+    height: 70px;
+    
+}
+
+.main_Body1{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to right, rgba(230, 241, 245, 0.295),rgba(199, 212, 214, 0.267));
+    background-position: center;
+    background-size: cover;
+}
+
+.input_Label{
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(82, 80, 80);
+      
+}
+
+

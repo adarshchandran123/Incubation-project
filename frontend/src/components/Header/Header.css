@@ -1,0 +1,31 @@
+.navStyle{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+    box-shadow:3px 5px 6px black;
+    border-radius: 4px;
+}
+.navStyle:hover{
+    color: blue;
+}
+
+.navStyle1{
+    text-decoration: none;
+    color: rgb(124, 123, 123);
+    font-weight: bolder;
+    font-size: 10px;
+    box-shadow:3px 5px 6px black;
+    border-radius: 4px;
+}
+
+.nav-link{
+    color: rgb(124, 123, 123);
+    padding: 3px;
+    font-size: 18px;
+    margin-left: -2px;
+
+}
+.nav-link:hover{
+    color: rgb(44, 42, 42);
+}

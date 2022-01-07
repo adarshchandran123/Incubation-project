@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,700&display=swap');
+
+.mainback{
+    min-height: 100vh;
+    display: flex;
+    padding: 10px 0;
+    background-image: linear-gradient(#83838375,#d6cfcf26, #d1d1d19c)
+
+}
+.page{
+    width: 100%;
+}
+.heading{
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px 10px;
+    color: rgb(43, 13, 35);
+}
+
+@media only screen and (max-width:600px) {
+    .heading{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+    }
+}
