@@ -36,24 +36,12 @@ const LandingPage = () => {
                            <Link to="login">
                            <button  style={{marginRight:"30px"}} className="btn btn-outline-success btnStyle">Login</button> 
                            </Link>
-                           
-
-                           
-                           
-                           
-                          
-                                
-
                             
                             <Link to="/signup">
                              <button style={{marginLeft:"30px"}}  className="btn btn-outline-success btnStyle">Signup</button>
                             </Link>
                             
-                           
-
-                        </div>
-                        
-                        
+                        </div> 
                     </div>
                 </Row>
             </Container>

@@ -8,7 +8,6 @@ const Header = () => {
 
   const history = useHistory()
 
-
   const Goto_recordList = ()=>{
     history.push('/recordList')
   }

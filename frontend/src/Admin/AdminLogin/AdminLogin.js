@@ -16,7 +16,7 @@ const AdminLogin = () => {
 
 
     const submitHandler =async (e) =>{
-        console.log('nokkam',email,password);
+        
         e.preventDefault();
         
         try {
@@ -24,9 +24,7 @@ const AdminLogin = () => {
             const config = {
                 headers:{
                     "Content-Type":"application/json",
-                   
-                   
-                    
+                                     
                 }    
             }
 
@@ -48,13 +46,10 @@ const AdminLogin = () => {
             
             setError(error.response.data.message);
             setLoading(false)
-            console.log('ithanu error',error);
-            
+                   
         }
 
     }
-
-
 
     return (
         <div className="loginMainBody">
@@ -94,7 +89,6 @@ const AdminLogin = () => {
 
                         </div>
                         <br/>
-                        
                         
                         <div style={{display:'flex',justifyContent:'center'}}>
 

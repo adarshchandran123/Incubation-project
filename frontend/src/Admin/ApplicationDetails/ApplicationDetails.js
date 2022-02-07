@@ -19,7 +19,7 @@ const ApplicationDetails = () => {
     const getFormDetail = async () =>{
 
         const FormId = JSON.parse(localStorage.getItem("singleForm"))
-        console.log('ithaaanooo',FormId)
+
 
         const config = {
             headers : {
@@ -27,7 +27,7 @@ const ApplicationDetails = () => {
             }
         }
         const data = await axios.get(`http://localhost:5000/api/user/mybookings/${FormId}`,config)
-        console.log("data is : ",data)
+        
         setFormDetails(data.data)
     }
 

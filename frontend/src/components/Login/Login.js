@@ -18,7 +18,7 @@ const Login = () => {
 
 
     const submitHandler =async (e) =>{
-        console.log('nokkam',email,password);
+        
         e.preventDefault();
         
         try {
@@ -50,8 +50,7 @@ const Login = () => {
             
             setError(error.response.data.message);
             setLoading(false)
-            console.log('ithanu error',error);
-            console.log('it error',error.response.data.message);
+            
         }
 
     }

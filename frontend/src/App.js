@@ -1,6 +1,5 @@
 import "./App.css";
-import Footer from "./components/Footer/Footer";
-import Header from "./components/Header/Header";
+
 import LandingPage from "./screens/LandingPage";
 import { BrowserRouter,Route } from "react-router-dom";
 import Login from "./components/Login/Login";
@@ -22,11 +21,6 @@ function App() {
 
 
     <Route path="/login" component={Login} />
-
-   
-
-
-
  
     <Route path="/" exact component={LandingPage} />
 
@@ -36,7 +30,6 @@ function App() {
 
     <Route path="/createBooking"  component={CreateBooking} />
     
-
     <Route path="/Admin" component={AdminHome} />
 
     <Route path="/Admin_Login" component={AdminLogin} />

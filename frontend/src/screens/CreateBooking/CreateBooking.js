@@ -10,9 +10,6 @@ import "./CreateBooking.css"
 
 const CreateBooking = () => {
 
-
- 
- 
     const history = useHistory()
 
     const [name, setName] = useState("")
@@ -36,12 +33,9 @@ const CreateBooking = () => {
     const [error, setError] = useState(false)
     
 
-
     const submitHandler =async (e) =>{
         e.preventDefault();
         
-
-
         try {
             const config = {
                 headers:{
@@ -82,7 +76,7 @@ const CreateBooking = () => {
 
 
         } catch (error) {
-            console.log('enthhaaavum errr',error);
+            console.log('err',error);
         }
 
     }

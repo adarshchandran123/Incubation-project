@@ -22,7 +22,7 @@ const Signup = () => {
 
     const submitHandler =async (e) =>{
         e.preventDefault()
-        console.log('signup',email);
+       
         if(password !== confirmPassword){
             setMessage('Password Do not Match')
         }else{
@@ -46,7 +46,7 @@ const Signup = () => {
             } catch (error) {
 
                 setError(error.response.data.message);
-                console.log('signup il error',error);
+                
             }
         }
     }  

@@ -3,9 +3,6 @@ import React, { useEffect, useState } from 'react'
 import { Button, Container, Row, Table } from 'react-bootstrap';
 import { useHistory } from 'react-router';
 import "./AdminHome.css"
-
-
-
 import Header from '../Header/Header';
 import axios from 'axios';
 
@@ -41,7 +38,7 @@ const AdminHome = () => {
 
     const OnProcess = (FormId)=>{
       axios.patch(`http://localhost:5000/admin/Onprocess/${FormId}`).then((res)=>{
-        console.log("on process",res);
+        
         getData()
       })
 
@@ -49,7 +46,7 @@ const AdminHome = () => {
 
     const AppReject = (FormId)=>{
       axios.patch(`http://localhost:5000/admin/AppReject/${FormId}`).then((res)=>{
-        console.log("on reject",res);
+        
         getData()
       })
 
@@ -133,11 +130,7 @@ const AdminHome = () => {
       
     }, []);
    
-    // useEffect(() => {
-      
-      
-    //   pending()
-    // }, []);
+
 
 
    

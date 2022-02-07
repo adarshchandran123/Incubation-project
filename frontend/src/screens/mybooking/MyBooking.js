@@ -2,7 +2,6 @@ import { Accordion, Badge, Button, Card } from "react-bootstrap";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import MainScreen from "../../components/MainScreen";
-import notes from '../../components/mynotes/Mynotes'
 
 import axios from "axios"
 
@@ -15,7 +14,7 @@ const MyBooking = () => {
     
     if (window.confirm("Are you sure ?")) {
       axios.delete(`http://localhost:5000/api/user/mybooking/${id}`).then((res)=>{
-        console.log('deleet aayi',res);
+        
         fetchData()
       })
     }
@@ -28,7 +27,7 @@ const MyBooking = () => {
     axios.get(`http://localhost:5000/api/user/mybooking/${userId}`).then((data) => {
       
       const details =data.data
-      console.log('hhhhhhhh',data);
+      
       setBooking(details);
      
     });

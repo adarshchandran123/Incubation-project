@@ -10,7 +10,7 @@ const RecordList = () => {
 
     const Get_All_ApplicationList= ()=>{
         axios.get('http://localhost:5000/admin/recordList').then((res)=>{
-            console.log('gggaaaa',res)
+            
             setRecordList(res.data)
         })
     }
